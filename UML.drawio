@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4" pages="2">
   <diagram name="1 oldal" id="AO9EqF0Pw0XHUYTM5-0S">
-    <mxGraphModel dx="2206" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="2242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,25 @@
         </mxCell>
         <mxCell id="5-NTMnnVonEZ9g2xOe2K-51" value="+ steps: list[int]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5-NTMnnVonEZ9g2xOe2K-47" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x02YkQBjoQvQCSHu9esw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-NTMnnVonEZ9g2xOe2K-52" target="5-NTMnnVonEZ9g2xOe2K-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x02YkQBjoQvQCSHu9esw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-NTMnnVonEZ9g2xOe2K-52" target="5-NTMnnVonEZ9g2xOe2K-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x02YkQBjoQvQCSHu9esw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-NTMnnVonEZ9g2xOe2K-52" target="5-NTMnnVonEZ9g2xOe2K-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="580" />
+              <mxPoint x="960" y="580" />
+              <mxPoint x="960" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5-NTMnnVonEZ9g2xOe2K-52" value="Player(Fighter)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="230" y="70" width="160" height="404" as="geometry" />
