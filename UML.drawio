@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4" pages="2">
   <diagram name="1 oldal" id="AO9EqF0Pw0XHUYTM5-0S">
-    <mxGraphModel dx="1793" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,6 +139,15 @@
         </mxCell>
         <mxCell id="5-NTMnnVonEZ9g2xOe2K-69" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="5-NTMnnVonEZ9g2xOe2K-67" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x02YkQBjoQvQCSHu9esw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-NTMnnVonEZ9g2xOe2K-71" target="5-NTMnnVonEZ9g2xOe2K-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="830" />
+              <mxPoint x="980" y="830" />
+              <mxPoint x="980" y="506" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5-NTMnnVonEZ9g2xOe2K-71" value="Enemy(Fighter)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="430" y="70" width="160" height="406" as="geometry" />
