@@ -17,6 +17,10 @@ class SettingsMenu:
                 elif e.type == pygame.KEYDOWN:
                     if e.key == pygame.K_ESCAPE:
                         settings_menu_running = False
+                    elif e.key == pygame.K_w:
+                        pygame.display.set_mode((self.screen.get_width() + 10, self.screen.get_height() + 10))
+                    elif e.key == pygame.K_s:
+                        pygame.display.set_mode((self.screen.get_width() - 10, self.screen.get_height() - 10))
 
             # Settings Menu funkciói:            
             self.screen.fill(pygame.color.THECOLORS['chartreuse'])
