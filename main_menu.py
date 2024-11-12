@@ -1,8 +1,8 @@
 import pygame
 
 class MainMenu:
-    def __init__(self):
-        pass
+    def __init__(self, screen: pygame.Surface):
+        self.screen = screen
 
     def run(self):
         main_menu_running = True
@@ -23,4 +23,6 @@ class MainMenu:
                         pygame.quit()
                     
             # Main Menu funkciói:
-            print('Main Menu is running...')
+            self.screen.fill(pygame.color.THECOLORS['cadetblue4'])
+            self.screen.blit(pygame.font.Font(None, 32).render('Main Menu', True, (0, 0, 0)), (0, 0))
+            pygame.display.update()

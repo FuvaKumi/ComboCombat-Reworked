@@ -1,8 +1,8 @@
 import pygame
 
 class SettingsMenu:
-    def __init__(self):
-        pass
+    def __init__(self, screen: pygame.Surface):
+        self.screen = screen
 
     def run(self):
         settings_menu_running = True
@@ -19,4 +19,6 @@ class SettingsMenu:
                         settings_menu_running = False
 
             # Settings Menu funkciói:            
-            print('Settings Menu is running...')
+            self.screen.fill(pygame.color.THECOLORS['chartreuse'])
+            self.screen.blit(pygame.font.Font(None, 32).render('Settings Menu', True, (0, 0, 0)), (0, 0))
+            pygame.display.update()

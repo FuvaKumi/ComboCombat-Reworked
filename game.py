@@ -6,11 +6,11 @@ from settings_menu import SettingsMenu
 
 class Game:
     def __init__(self):
-        self.main_menu = MainMenu()
         self.screen = pygame.display.set_mode((300, 300))
+        self.main_menu = MainMenu(self.screen)
         self.scenes = {
-            'pvp': PvpGameLoop(),
-            'settings': SettingsMenu(),
+            'pvp': PvpGameLoop(self.screen),
+            'settings': SettingsMenu(self.screen),
         }
 
     def run(self):
